@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: rgb(28, 28, 102); */
+    background: url("images/sound\ \(1\).jpg") center/cover no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.container{
+    color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    background: #0301099c;
+    border: 1px solid rgb(220, 220, 220);
+    margin: 15px;
+}
+
+.container header{
+    font-size: 30px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+.container form{
+    margin: 35px 0 20px;
+}
+form .row{
+    display: flex;
+    flex-direction: column;
+}
+form .row label{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+form :where(textarea, select, button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+form .row textarea{
+    resize: none;
+    background: transparent;
+    color: rgb(220, 220, 220);
+    height: 110px;
+    font-size: 15px;
+    padding: 8px 10px;
+    border: 1px solid rgb(196, 196, 196);
+}
+form .row .outer{
+    height: 50px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+}
+form .row .outer select{
+    background: transparent;
+    color: rgb(220, 220, 220);
+    font-weight: 50;
+}
+form .row .outer select .options{
+    background-color: rgb(12, 12, 43);
+
+}
+
+form button{
+    background: transparent;
+    padding: 10px;
+    border: 1px solid rgb(220,220,220);
+    color: rgb(220,220,220);
+    margin-top: 20px;
+    transition: 0.5s;
+    font-size: 1em;
+}
+form button:hover{
+    background: rgba(255, 255, 255, 0.386);
+    color: rgb(6, 6, 6);
+    font-weight: 100;
+}

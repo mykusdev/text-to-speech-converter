@@ -23,7 +23,7 @@ Check out the live demo of the Text-to-Speech Converter: [Demo Link](https://myk
 
 - Enter any text you want to convert to speech.
 - Adjust the speech rate and pitch according to your preference.
-- Play, pause, and stop buttons for controlling the speech playback.
+- Play, pause, and resume buttons for controlling the speech playback.
 - User-friendly and responsive design.
 
 ## Getting Started
